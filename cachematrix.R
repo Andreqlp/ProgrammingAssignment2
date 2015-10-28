@@ -1,7 +1,5 @@
 ## Put comments here that give an overall description of what your
-## functions do
-
-## Write a short comment describing this function
+## In makeCacheMatrix function, a link is created with the variables "x" and "m" for information that is outside the creator of the function room. Moreover inverse functions are created for display based on the variable "m" and a function generating a new matrix (getInverso).
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -17,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
              getInverso = getInverso)
 }
 
-## Write a short comment describing this function
+##The cacheSolve function assigns a result of the inverted matrix function for the variable 'm', provided that it be a null value.
 
 cacheSolve <- function(x, ...) {
         m <- x$getInverso()
